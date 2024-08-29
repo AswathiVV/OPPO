@@ -220,7 +220,7 @@
     background-color: #a3dcf3;
     width: 1285px;
     height: 350px;
-    left: 90px;
+    left: 6.5%;
     
 
 }
@@ -289,6 +289,39 @@ div.gallery img {
   float: left;
   width: 24.99999%;
 }
+.footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    top:130vmin;
+}
+.footer img{
+    position: absolute;
+    width: 16%;
+    height: 34%;
+    left: 5%;
+}
+.footer h2{
+    color: aliceblue;
+}
+.footer b{
+    color: aliceblue;
+}
+.sub1 li{
+    position: absolute;
+    padding-left: 330px;
+    padding-top: 25px;
+}
+.sub2 li{
+    position: absolute;
+    left: 630px;
+}
+.sub3 li{
+    position: absolute;
+    left: 830px;
+}
+
 
 @media only screen and (max-width: 700px) {
   .responsive {
@@ -301,6 +334,11 @@ div.gallery img {
   .responsive {
     width: 100%;
   }
+  .footer{
+    width: 100%;
+    text-align: center;
+    
+  }
 }
 
 .clearfix:after {
@@ -308,6 +346,73 @@ div.gallery img {
   display: table;
   clear: both;
 }
+.footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    height: 600px;
+    text-align: center;
+    border-radius: 1px solid black;
+    top:400px;
+    width: 100%;
+    position: relative;
+}
+
+.footer ul{
+    float: left;
+    padding: 30px;
+    margin: 30px;
+    position: absolute;
+}
+@media only screen and (max-width: 600px) {
+  .text-block-sm{
+    width: 10%;
+    height: 10%;
+  }
+  .text-block-sm h4{
+    font-size: 10px;
+    text-align: center;
+    
+  }
+  .footer{
+    top: 360vmin;
+    width: 100%;
+    background-color: black;
+  }
+  .footer .sub1{
+    left: 10%;
+  }
+  .footer .sub2{
+    left: 30%;
+  }
+  .footer .sub3{
+    left: 50%;
+  }
+  .navbar{
+   width: 100%;
+   font-size: 10px;
+   padding: 5px;
+  }
+  .a1{
+    width: 100%;
+  }
+  .a1 img{
+    width: 30%;
+    height: 40%;
+    left: 60%;
+    top: 40%;
+  }
+  .navbar.w3-bar li{
+    font-size: 10px;
+    left: 5%;
+  }
+  .nav-item{
+    font-size: 10px;
+    padding: 5px 1px;
+    left: 10px;
+  }
+}
+
 
 </style>
 <body> 
@@ -317,8 +422,8 @@ div.gallery img {
     </div>
   
     <nav class="navbar navbar-expand bg-light fixed-top  text-dark">
-        <ul class="navbar-nav">
-            <div class="w3-bar w3-white w3-card" id="myNavbar">
+        <ul class="navbar-nav" style="width: 100%;">
+            <div class="w3-bar w3-white w3-card" id="myNavbar" style="width: 100%;">
                 <li class="w3-bar-item w3-button w3-wide">OPPO</li>
             </div>
         
@@ -524,6 +629,36 @@ div.gallery img {
       
       
 </div>
+<div class="footer">
+  
+  <div class="sub1">
+    <li style="list-style-type: none;left: 40px;"><h2>SOLUTIONS</h2> <br>
+       <b>My account </b><br><br>
+        <b>Track Your Order</b> <br><br>
+        <b>Order History</b> <br><br>
+        <b>Payment Methods</b> <br><br>
+        <b>Privacy Policy</b></li>
+ </div>
+ <div class="sub2">
+  <li style="list-style-type: none;"><h2>ABOUT US</h2> <br>
+     <b>About us </b><br><br>
+      <b> Terms & Condition</b> <br><br>
+      <b> Privacy Policy</b> <br><br>
+      <b>Return Policy</b> <br><br>
+      <b>Site Map</b></li>
+</div>
+<div class="sub3">
+  <li style="list-style-type: none;"><h2>CONTACT US</h2> <br>
+     <b>Kureekkadu, Ernakulam, Kerala </b><br><br>
+      <b> 📞+91-86065 70657</b> <br><br>
+      <b> 🕑 Mon - Sat / 9:00AM - 6:00PM</b> <br><br>
+      
+      
+</div>
+
+
+</div>  
+    
 
 
 </body>
